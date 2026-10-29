@@ -1,0 +1,81 @@
+# MAKEOVER BY RASHMI MISHRA — Luxury Bridal Lookbook & Academy Admissions Portal
+# Editorial Luxury Standards: Charlotte Tilbury / The Row Aesthetic (100% Daylight Luxury)
+
+## 1. MANDATORY ARCHITECTURAL PHILOSOPHY & ZERO-VIBECODING
+This codebase is an editorial luxury digital flagship for Rashmi Mishra (Celebrity Makeup Artist & Academy Founder, Kurla, Mumbai).
+Every line of code, style definition, and layout element must reflect high-end haute couture bridal beauty and accredited vocational artistry education.
+
+### 30 BANNED VIBECODING CLICHÉS (STRICTLY PROHIBITED):
+1. NO Dark Mode or toggle switches (`dark:` classes are banned; 100% Daylight Luxury only).
+2. NO purple-black, neon, or Web3 crypto color schemes.
+3. NO tacky gold, brass, yellow, or mustard accents (`#FFD700`, `#D4AF37`, `yellow-*` are banned).
+4. NO harsh gradients, multi-stop vibrant gradients, or mesh gradients.
+5. NO soft spread drop shadows (`shadow-xl`, `shadow-2xl` with blurry spread). Use crisp hairline borders (`1px solid #EAE3DA`).
+6. NO generic Lucide/FontAwesome icon overload in colorful circles.
+7. NO bubbly, rounded container boxes (`rounded-xl`, `rounded-2xl`, `rounded-3xl` are strictly banned).
+8. NO 3-card-in-a-row SaaS bento boxes.
+9. NO emojis in headlines, body copy, badges, or buttons.
+10. NO liquid glass / frosted glassmorphism overlays (`backdrop-blur` card soup).
+11. NO placeholder dummy copy like "Lorem ipsum" or generic "World-class beauty services".
+12. NO fake testimonials with stock business personas.
+13. NO floating chat bubbles or noisy third-party widget embeds.
+14. NO unstyled broken images or missing fallback skeleton states.
+15. NO bouncy game-like physics or distracting particle animations.
+16. NO low-contrast illegible text failing WCAG AA (minimum 4.5:1 ratio).
+17. NO unformatted raw telephone numbers or raw unencoded WhatsApp links.
+18. NO missing metadata or omitted OpenGraph / Twitter cards.
+19. NO unhandled form submission states (must have inline validation, loading indicators, and confirmation states).
+20. NO full-screen blocking modals without accessible ESC key and backdrop close handlers.
+21. NO non-semantic HTML (`<div>` buttons or clickable `<span>` elements).
+22. NO missing `alt` attributes on imagery.
+23. NO cluttered sticky navigation bars covering hero typography.
+24. NO marquee tickers with tacky flashing colors.
+25. NO generic cookie popups blocking the mobile view.
+26. NO layout shifts (CLS) on font loads or image loading.
+27. NO hardcoded contact links without pre-filled structured inquiry parameters.
+28. NO missing legal compliance (DPDP Act 2023 India consent checkboxes mandatory).
+29. NO arbitrary padding/margin magic numbers outside the 4px/8px design grid.
+30. NO unoptimized heavy client bundles; server components preferred by default.
+
+---
+
+## 2. EXACT COLOR PALETTE & DESIGN SYSTEM
+- **Canvas Primary (Mulmul Ivory):** `#FDFBF7`
+- **Surface Secondary (Rosewater Alabaster):** `#FBF8F5`
+- **Surface Tertiary (Warm Travertine):** `#F5EFEB`
+- **Text Primary (Deep Charcoal Ink):** `#1C1917`
+- **Text Muted (Warm Espresso):** `#57534E`
+- **Text Subtle (Raw Umber):** `#8C827A`
+- **Hairline Borders & Dividers:** `1px solid #EAE3DA` (or `#DFD7CD`)
+- **Active / Accent Tint (Rose Dust Neutral):** `#E8DDD3` / `#D4C5B9`
+- **Pure Black Overlay (Editorial Lightbox):** `rgba(28, 25, 23, 0.85)`
+
+---
+
+## 3. GEOMETRY & TYPOGRAPHY
+- **Border Radius:** Razor-sharp 90-degree corners (`rounded-none`). Subtle `rounded-sm` permitted only on technical status indicators.
+- **Display Serif:** Cormorant Garamond / Playfair Display / Cinzel (for headlines, editorial lookbook labels, luxury numbers).
+- **Body Sans:** Plus Jakarta Sans / Inter (clean, neutral, high-legibility at 13px–16px, tracking `0.01em` to `0.05em`).
+- **Monospace Technical:** JetBrains Mono / Space Mono for batch dates, curriculum module codes (`MOD-01`, `CUR-02`), and coordinates.
+
+---
+
+## 4. DUAL BUSINESS ARCHITECTURE
+The system must cater seamlessly to two distinct high-ticket personas:
+1. **Persona A: Luxury Brides (Kurla, Bandra, South Mumbai & Destination):**
+   - Seeking timeless bridal glamour, flawless high-definition dewy finish, non-cakey drape.
+   - Core Action: Lookbook exploration by style + 1-tap WhatsApp wedding date availability check.
+2. **Persona B: Aspiring Artistry & Nail Students (Pan-India & Mumbai Suburbs):**
+   - Seeking professional certification from International Certified Artist Rashmi Mishra.
+   - 30-Day Masterclass (Makeup & Hair) & Professional Nail Art & Extension Diploma.
+   - Core Action: Syllabus download request, batch schedule inspection (November & December 2026), hands-on seat reservation.
+
+---
+
+## 5. TECH STACK & EXECUTION RULES
+- **Framework:** Next.js 15 (App Router), React 19, TypeScript (strict mode).
+- **Styling:** Tailwind CSS with custom editorial tokens.
+- **Smooth Inertial Momentum:** Lenis (`lenis/react`).
+- **Icons:** Minimal geometric Lucide icons (stroke width 1.25px or 1.5px only).
+- **WhatsApp Routing:** Centralized `whatsappRouter.ts` utility pointing to `https://wa.link/grbesm` with clean encoded message payloads.
+- **DPDP Act Compliance:** Explicit opt-in checkbox before WhatsApp routing for lead acquisition.

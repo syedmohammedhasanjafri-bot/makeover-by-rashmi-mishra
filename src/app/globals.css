@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --canvas-primary: #FDFBF7;
+    --canvas-secondary: #FBF8F5;
+    --canvas-tertiary: #F5EFEB;
+    --ink-primary: #1C1917;
+    --ink-espresso: #57534E;
+    --ink-muted: #8C827A;
+    --hairline: #EAE3DA;
+    --hairline-strong: #DFD7CD;
+    --blush-soft: #E8DDD3;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #FDFBF7;
+    color: #1C1917;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #FDFBF7;
+    color: #1C1917;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom Selection Color */
+  ::selection {
+    background-color: #1C1917;
+    color: #FDFBF7;
+  }
+}
+
+/* Hairline borders */
+.border-hairline {
+  border-color: #EAE3DA;
+}
+
+.border-hairline-strong {
+  border-color: #DFD7CD;
+}
+
+/* Lenis Recommended CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Shimmer animation for daylight skeleton loaders */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    #F5EFEB 0%,
+    #EAE3DA 50%,
+    #F5EFEB 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.8s infinite ease-in-out;
+}
+
+/* Subtle image zoom on hover */
+.img-zoom-frame {
+  overflow: hidden;
+}
+
+.img-zoom-frame img {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.img-zoom-frame:hover img {
+  transform: scale(1.04);
+}
